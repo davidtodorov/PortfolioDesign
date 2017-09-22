@@ -1,0 +1,270 @@
+* {
+	box-sizing:border-box;
+	font-family: 'Lora', serif;
+	color:#297A7B;
+	text-decoration:none;
+}
+body
+{
+	margin:0px;
+}
+
+.wrapper
+{
+	margin:0px;
+}
+
+.background
+{
+	height:100vh;
+	width:100%;	
+    background-image: url("pics/sitebg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	margin-top:45px;
+}
+
+.logo img
+{
+	height:100%;
+	width:100%;
+}
+
+.logo
+{
+	height:44px;
+	width:44px;
+	float:left;
+}
+
+.social
+{
+	float:right;
+}
+
+.nav
+{
+	float:none;
+	display:inline-block;
+	
+}
+
+nav
+{
+	position:fixed;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	top:0px;
+	left:0px;
+	background:#fff;
+	z-index:3;
+	
+}
+
+.nav ul
+{
+	
+	list-style-type:none;
+	margin:5px 0px 0px 0px;
+}
+
+.nav ul li
+{
+	display:inline-block;
+	margin:0px 30px 0px 30px;
+	
+}
+
+.nav ul li a
+{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.box img
+{
+	width:200px;
+	height:80px;
+	margin:20px 0px 20px 015%;
+}
+
+.box, .box4
+{
+	float:left;
+	width:50%;
+	height:550px;
+	margin:0px;
+	display:table;
+}
+
+.box5
+{
+	display:table;
+}
+.table-cell
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.box2, .box3
+{
+	float:left;
+	width:50%;
+	height:550px;
+	margin:0px;   
+	position: relative;
+    overflow: hidden;
+}
+
+.box h1, .box4 h1
+{
+	font-family: Lora, Times New Roman, serif;
+	position:relative;
+	top:15%;
+	width:70%;
+	margin:0 auto;
+	
+}
+
+.box p, .box4 p
+{
+	position:relative;
+	width:70%;
+	margin: 0 auto;
+	top:15%;
+	font-family: Lora, Times New Roman, serif;
+    font-size: 13.5pt;
+}
+
+
+
+.box2 img, .box3 img
+{
+	position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.small-box
+{
+	float:left;
+	width:25%;
+	height:auto;
+	position:relative;
+}
+
+.small-box img
+{
+	
+	width:100%;
+	height:auto;
+}
+
+.wedding
+{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	transform:translateY(-50%)
+}
+
+
+
+.blog
+{
+	float:left;
+	width:100%;
+	margin-bottom:100px;
+}
+
+.wrapper2, .contacts
+{
+	width:70%;
+	margin:0 auto;
+}
+
+.blog h1
+{
+	margin:50px;
+	text-align:center;
+}
+
+.blog-content
+{
+	float:left;
+	width:30%;
+	margin-left:25px;
+}
+
+.blog-content h3
+{
+	text-align:center;
+}
+
+.blog-content img
+{
+	height:auto;
+	width:100%;
+}
+
+.button
+{
+
+	margin:0 auto;
+	display:table;
+	text-align:center;
+	
+}
+
+
+
+.contacts
+{
+	margin-top:100px;
+}
+
+.blog-content a
+{
+	display:inline-table;
+}
+
+.blah
+{
+	float:left;
+	width:30%;
+	display:block;
+}
+
+.blah a
+{
+	display:table;
+	text-align:center;
+	
+}
+
+.btn-link
+{
+	padding: 15px;
+    font-family: Open Sans, Arial, sans serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+	border:2px solid #297a7b;
+}
+
+.form
+{
+	float:right;
+}
